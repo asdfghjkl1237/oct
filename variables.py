@@ -11,3 +11,5 @@ path_folder_octavia_core = os.path.dirname(path_folder_oct)
 
 path_folder__test_sound_listen = os.path.join(path_folder_octavia_core, 'storage', 'test', 'sound_listen')
 path_folder__test_sound_gen = os.path.join(path_folder_octavia_core, 'storage', 'test', 'sound_gen')
+
+del_samle_size_multiplier = 1000
