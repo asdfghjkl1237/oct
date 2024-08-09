@@ -3,7 +3,8 @@ from packages import *
 framerate = 44100
 chunk = 1024
 channels = 1
-bit_duration = 0.001
+bit_duration = 0.01
+primary_recording_id = 5
 
 path_folder_oct = os.path.dirname(os.path.abspath(__file__))
 path_folder_octavia_core = os.path.dirname(path_folder_oct)
