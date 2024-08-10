@@ -1,6 +1,6 @@
 from packages import *
 
-framerate = 44100
+framerate = 96000 # 44100
 chunk = 1024
 channels = 1
 bit_duration = 0.001
@@ -13,3 +13,6 @@ path_folder__test_sound_listen = os.path.join(path_folder_octavia_core, 'storage
 path_folder__test_sound_gen = os.path.join(path_folder_octavia_core, 'storage', 'test', 'sound_gen')
 
 del_sample_size_multiplier = 1000
+
+dict_frequencies = {0: 1000, 1: 3000}
+dict_frequencies_reverse = {v: k for k, v in dict_frequencies.items()}
