@@ -4,7 +4,7 @@ framerate = 96000 # 44100
 chunk = 1024
 channels = 1
 bit_duration = 0.001
-primary_recording_id = 7
+primary_recording_id = 8
 
 path_folder_oct = os.path.dirname(os.path.abspath(__file__))
 path_folder_octavia_core = os.path.dirname(path_folder_oct)
