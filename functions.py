@@ -24,3 +24,11 @@ def trim_zeros_around_ones(lst):
             last_index = i + 4
 
     return lst[first_index:last_index + 1]
+
+def similarity_score(list1, list2):
+    if len(list1) != len(list2):
+        raise ValueError("Lists must be of equal length")
+    matches = sum(1 for i in range(len(list1)) if list1[i] == list2[i])
+    
+    score = (matches / len(list1))
+    return score
