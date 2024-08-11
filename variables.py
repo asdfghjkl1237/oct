@@ -3,7 +3,7 @@ from packages import *
 framerate = 96000 # 44100
 chunk = 1024
 channels = 1
-bit_duration = 0.0025
+bit_duration = 0.003
 primary_recording_id = 9
 
 path_folder_oct = os.path.dirname(os.path.abspath(__file__))
