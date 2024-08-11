@@ -24,3 +24,10 @@ def get_last_file_path_with_recording_id(folder_path, recording_id = None, file_
         return os.path.join(os.path.abspath(folder_path), full_file_name)
     else:
         return full_file_name
+
+def get_wav_duration(file_path):
+    with wave.open(file_path, 'rb') as wav_file:
+        frames = wav_file.getnframes()
+        rate = wav_file.getframerate()
+        duration = frames / float(rate)
+    return duration
