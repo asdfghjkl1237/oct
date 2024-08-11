@@ -1,6 +1,6 @@
 from packages import *
 
-framerate = 96000 # 44100
+framerate = 44100 # 96000 # 44100
 chunk = 1024
 channels = 1
 bit_duration = 0.005
